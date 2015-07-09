@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="Receituario.Controls.ucCaminhoBd"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="43" d:DesignWidth="566">
+    <Grid>
+        <ComboBox Height="3" HorizontalAlignment="Left" Margin="227,16,0,0" Name="comboBox2" VerticalAlignment="Top" Width="21" />
+        <Label Content="Caminho do banco de dados" Height="23" HorizontalAlignment="Left" Name="lblNome" VerticalAlignment="Top" Margin="0,-4,0,0" />
+        <Button Content="Default" Height="23" HorizontalAlignment="Right" Margin="0,20,0,0" Name="btnDefault" VerticalAlignment="Top" Width="54" Click="btnDefault_Click" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="0,20,0,0" Name="txtCaminhoBd" VerticalAlignment="Top" Width="440" Loaded="txtCaminhoBd_Loaded" />
+        <Button Content="Alterar" Height="23" HorizontalAlignment="Left" Margin="446,20,0,0" Name="btnAlterar" VerticalAlignment="Top" Width="60" Click="btnAlterar_Click" />
+    </Grid>
+</UserControl>

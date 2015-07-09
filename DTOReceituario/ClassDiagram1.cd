@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DTOReceituario.AutoTexto">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAABAAAAAAAAAAQAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>AutoTexto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DTOReceituario.Medicamento">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIABAACAAAAAAACAAAAAAAAAAAAAAAAAAQAEAAAA=</HashCode>
+      <FileName>Medicamento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DTOReceituario.Receita">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAIAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Receita.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DTOReceituario.ReceitaItem">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAEAAABAAAAAAAAAAg=</HashCode>
+      <FileName>ReceitaItem.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Medicamento" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="DTOReceituario.TipoUso">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAQAAAAgIAAAAAAAAAAA=</HashCode>
+      <FileName>TipoUso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

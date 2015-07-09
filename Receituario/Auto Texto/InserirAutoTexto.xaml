@@ -1,0 +1,21 @@
+﻿<Window x:Class="Receituario.InserirAutoTexto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Auto Texto" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="207" Width="464" ResizeMode="NoResize">
+    <Grid Background="#FF8D8D8D" Height="165" Width="428">
+        <Grid Height="141" HorizontalAlignment="Left" Margin="14,12,0,0" Name="GridControla" VerticalAlignment="Top" Width="404" Background="#FF767676">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="11*" />
+                <ColumnDefinition Width="444*" />
+            </Grid.ColumnDefinitions>
+            <RichTextBox HorizontalAlignment="Left" Margin="0,28,0,0" Name="txtboxNome" Width="299" Grid.Column="1" Height="52" VerticalAlignment="Top" />
+            <Label Content="Texto" Foreground="#FFE5E5E5" Height="28" HorizontalAlignment="Left" Margin="0,6,0,0" Name="label3" VerticalAlignment="Top" Grid.Column="1" />
+            <Button Content="Inserir" Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="314,28,0,0" Name="btnInserirAtualizar" VerticalAlignment="Top" Width="67" Click="btnInserirAtualizar_Click" />
+            <Button Content="Cancelar" Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="314,57,0,0" Name="btnCancelar" VerticalAlignment="Top" Width="67" Click="btnCancelar_Click" />
+            <TextBox Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="63,103,0,0" Name="txtComando" VerticalAlignment="Top" Width="236" KeyUp="txtComando_KeyUp" GotFocus="txtComando_GotFocus" MaxLength="1" />
+            <Label Content="Comando" Grid.Column="1" Height="28" HorizontalAlignment="Left" Margin="59,80,0,0" Name="label1" VerticalAlignment="Top" />
+            <Label Content="" Grid.Column="1" Height="23" Margin="0,103,23,0" Name="lblComando" VerticalAlignment="Top" HorizontalAlignment="Right" Width="57" />
+            <Label Content="Control  + " Height="23" HorizontalAlignment="Right" Margin="0,103,329,0" Name="label2" VerticalAlignment="Top" Width="65" Grid.Column="1" />
+        </Grid>
+    </Grid>
+</Window>

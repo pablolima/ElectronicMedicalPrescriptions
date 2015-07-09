@@ -1,0 +1,9 @@
+﻿<Window x:Class="Receituario.Ajuda"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ajuda" Height="125" Width="295" Foreground="Black">
+    <Grid Background="{DynamicResource PanelGradientBrush}">
+        <Label Content="Para informações entre em contato no email:" Height="28" HorizontalAlignment="Left" Margin="12,12,0,0" Name="label1" VerticalAlignment="Top" />
+        <Label Content="pablo.profissional@gmail.com" Height="36" HorizontalAlignment="Left" Margin="37,38,0,0" Name="lblEmail" VerticalAlignment="Top" Foreground="#FFD0FF00" FontSize="15" />
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+﻿<Window x:Class="Receituario.InserirTipoUso"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Tipo de Uso" mc:Ignorable="d" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" Height="144" Width="500">
+    <Grid Background="#FF8D8D8D" Height="99" Width="477">
+        <Grid Height="74" HorizontalAlignment="Left" Margin="11,13,0,0" Name="GridControla" VerticalAlignment="Top" Width="455" Background="#FF767676">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="11*" />
+                <ColumnDefinition Width="444*" />
+            </Grid.ColumnDefinitions>
+            <TextBox Height="23" HorizontalAlignment="Left" Margin="0,28,0,0" Name="txtboxNome" VerticalAlignment="Top" Width="299" Grid.Column="1" />
+            <Label Content="Nome" Foreground="#FFE5E5E5" Height="28" HorizontalAlignment="Left" Margin="0,6,0,0" Name="label3" VerticalAlignment="Top" Grid.Column="1" />
+            <Button Content="Inserir" Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="305,28,0,0" Name="btnInserirAtualizar" VerticalAlignment="Top" Width="60" Click="btnInserirAtualizar_Click" />
+            <Button Content="Cancelar" Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="371,28,0,0" Name="btnCancelar" VerticalAlignment="Top" Width="67" Click="btnCancelar_Click" />
+        </Grid>
+    </Grid>
+</Window>
